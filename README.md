@@ -4,7 +4,7 @@ An intelligent multi-agent data analysis system powered by **AutoGen**, **OpenAI
 
 ## 🎥 Demo
 
-![DataVerse AI Demo](Project Demo.gif)
+![DataVerse AI Demo](https://github.com/SejalDS/DataVerse-AI/blob/main/Project%20Demo.gif)
 
 *Upload CSV → Ask question → Get analysis & visualization*
 
