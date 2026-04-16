@@ -2,6 +2,12 @@
 
 An intelligent multi-agent data analysis system powered by **AutoGen**, **OpenAI**, and **Docker**, with a beautiful Streamlit interface for seamless data exploration and visualization.
 
+## 🎥 Demo
+
+![DataVerse AI Demo](docs/demo.gif)
+
+*Upload CSV → Ask question → Get analysis & visualization*
+
 ## 🎯 Project Overview
 
 **DataVerse AI** combines cutting-edge multi-agent orchestration with large language models to revolutionize data analysis. Upload a CSV, ask a question in natural language, and let our AI agents collaborate to generate insights and visualizations automatically.
