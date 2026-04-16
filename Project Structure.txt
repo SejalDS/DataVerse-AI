@@ -1,8 +1,5 @@
 ### 📁 Project Structure
 
-### Complete Directory Layout
-
-```
 dataverse-ai/
 │
 ├── 📂 agents/                          # Agent definitions
