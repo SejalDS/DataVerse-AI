@@ -3,48 +3,29 @@
 dataverse-ai/
 │
 ├── 📂 agents/                          # Agent definitions
-│   ├── __init__.py
 │   ├── Code_Executor_agent.py         # CodeExecutorAgent
 │   ├── Data_analyzer_agent.py         # AssistantAgent for data analysis
 │   └── prompts/
-│       ├── __init__.py
 │       └── DataAnalyzerAgentPrompt.py # System prompts for agents
 │
 ├── 📂 team/                            # Team orchestration
-│   ├── __init__.py
 │   └── analyzer_gpt.py                # Multi-agent team setup (RoundRobinGroupChat)
 │
-├── 📂 config/                          # Configuration files
-│   ├── __init__.py
+├── 📂 config/                         # Configuration files
 │   ├── openai_model_client.py         # OpenAI LLM configuration
 │   ├── docker_utils.py                # Docker container management
 │   └── constants.py                   # App constants
 │
-├── 📂 temp/                            # Generated files (auto-created)
+├── 📂 temp/                           # Generated files (auto-created)
 │   ├── data.csv                       # Uploaded CSV files
 │   └── output.png                     # Generated visualizations
 │
-├── 📂 docs/                            # Documentation
-│   ├── INSTALLATION.md
-│   ├── EXAMPLES.md
-│   ├── TROUBLESHOOTING.md
-│   └── ARCHITECTURE.md
-│
-├── 📂 tests/                           # Unit & integration tests
-│   ├── __init__.py
-│   ├── test_agents.py
-│   └── test_team.py
-│
 ├── 🐳 Dockerfile                      # Docker image for Streamlit app
-├── 📄 docker-compose.yml              # Docker Compose orchestration
 ├── 🔧 main.py                         # CLI entry point
 ├── 💻 streamlit_app.py                # Main Streamlit web app
 ├── 📋 requirements.txt                # Python dependencies
-├── 📋 requirements-dev.txt            # Development dependencies
 ├── 🔐 .env.example                    # Environment variables template
-├── 🚫 .gitignore                      # Git ignore rules
-├── 📚 README.md                       # This file
-└── 📄 LICENSE                         # MIT License
+└── 📚 README.md
 ```
 
 ### File Responsibilities
